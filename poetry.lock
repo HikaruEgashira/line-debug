@@ -517,17 +517,18 @@ files = [
 
 [[package]]
 name = "jwcrypto"
-version = "1.5.0"
+version = "1.5.5"
 description = "Implementation of JOSE Web standards"
 optional = false
-python-versions = ">= 3.6"
+python-versions = ">= 3.8"
 files = [
-    {file = "jwcrypto-1.5.0.tar.gz", hash = "sha256:2c1dc51cf8e38ddf324795dfe9426dee9dd46caf47f535ccbc18781fba810b8d"},
+    {file = "jwcrypto-1.5.5-py3-none-any.whl", hash = "sha256:c18b10b2049603bef3ae7b77ad14bded431a9077d113447d62bebd8550b0d5bd"},
+    {file = "jwcrypto-1.5.5.tar.gz", hash = "sha256:59e7d5e4589d1b07170f368e20c32eb32a023911806a9723b1f43a0d8b3028d6"},
 ]
 
 [package.dependencies]
 cryptography = ">=3.4"
-deprecated = "*"
+typing-extensions = ">=4.5.0"
 
 [[package]]
 name = "line-bot-sdk"
@@ -1127,4 +1128,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "86a197007bb8ec6d6e95937e81cd1689d1b0753a5e62c03b2c4e2a5f520ae123"
+content-hash = "d1f9a5f52cf39c816be9cee5ae5be173831491b986cd4a810d2a4ca17929b009"
