@@ -13,7 +13,7 @@ pyjwt = "^2.8.0"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.1.8"
-pytest = "^7.4.3"
+pytest = "^9.0.3"
 
 [build-system]
 requires = ["poetry-core"]
