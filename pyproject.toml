@@ -7,12 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-line-bot-sdk = "^3.24.0"
+line-bot-sdk = "^3.25.0"
 jwcrypto = "^1.5.8"
 pyjwt = "^2.13.0"
 
 [tool.poetry.dev-dependencies]
-ruff = "^0.15.20"
+ruff = "^0.16.0"
 pytest = "^9.1.1"
 
 [build-system]
